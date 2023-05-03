@@ -1,15 +1,39 @@
+import styled from "styled-components";
+
+const MenuTile = styled.div`
+color: #3c3c3c;
+width: 100%;
+height: 80px;
+display: flex;
+}`
+
+const List = styled.ul`
+display: flex;
+padding: 10px;
+justify-content: space-between;
+}`
+
+const ListItem = styled.li`
+
+list-style-type: none;
+flex-direction: row;
+padding: 20px;
+text-align: center;
+font-size: 18px;
+}`
+
 export default function Menu() {
     return ( 
-    <div>
-        <ul>
-            <li> Home</li>
-            <li> Empresa</li>
-            <li> Indique e Ganhe</li>
-            <li> Serviços</li>
-            <li> Clientes</li>
-            <li> Blog</li>
-            <li> Contato</li>
-            <li>Solicitar Cotação -{">"}</li>
-        </ul>
-    </div>)
+    <MenuTile>
+        <List>
+            <ListItem> Home</ListItem>
+            <ListItem> Empresa</ListItem>
+            <ListItem> Indique e Ganhe</ListItem>
+            <ListItem> Serviços</ListItem>
+            <ListItem> Clientes</ListItem>
+            <ListItem> Blog</ListItem>
+            <ListItem> Contato</ListItem>
+            <ListItem>Solicitar Cotação -{">"}</ListItem>
+        </List>
+    </MenuTile>)
   }
