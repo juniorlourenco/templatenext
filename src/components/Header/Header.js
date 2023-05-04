@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 const HeaderTile = styled.div`
-color: #3c3c3c;
+color: #060606;
 width: 100%;
 height: 80px;
 border: 1px solid #c3c3c3;
 display: flex;
+justify-content: center;
 }`
 
 const List = styled.ul`

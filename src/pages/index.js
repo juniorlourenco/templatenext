@@ -1,8 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import styled from 'styled-components'
 import Header from '@/components/Header/Header'
 import Menu from '@/components/Menu/Menu'
 import Footer from '@/components/Footer/Footer'
+
+const HeaderTile = styled.body`
+color: #e5e5e5;
+}`
 
 export default function Home() {
   return (

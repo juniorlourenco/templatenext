@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 const MenuTile = styled.div`
-color: #3c3c3c;
+color: #060606;
 width: 100%;
 height: 80px;
 display: flex;
+justify-content: center;
 }`
 
 const List = styled.ul`
@@ -14,7 +15,6 @@ justify-content: space-between;
 }`
 
 const ListItem = styled.li`
-
 list-style-type: none;
 flex-direction: row;
 padding: 20px;
