@@ -28,12 +28,9 @@ export default function Menu() {
         <List>
             <ListItem> Home</ListItem>
             <ListItem> Empresa</ListItem>
-            <ListItem> Indique e Ganhe</ListItem>
             <ListItem> Serviços</ListItem>
-            <ListItem> Clientes</ListItem>
             <ListItem> Blog</ListItem>
             <ListItem> Contato</ListItem>
-            <ListItem>Solicitar Cotação -{">"}</ListItem>
         </List>
     </MenuTile>)
   }
