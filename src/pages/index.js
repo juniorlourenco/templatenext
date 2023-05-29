@@ -5,10 +5,6 @@ import Header from '@/components/Header/Header'
 import Menu from '@/components/Menu/Menu'
 import Footer from '@/components/Footer/Footer'
 
-const HeaderTile = styled.body`
-color: #e5e5e5;
-}`
-
 export default function Home() {
   return (
     <>
@@ -18,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      {/*<Header />*/}
       <Menu />
       <Footer />
       
